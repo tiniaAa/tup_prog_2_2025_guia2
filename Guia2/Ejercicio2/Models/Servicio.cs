@@ -57,9 +57,9 @@ namespace Ejercicio2.Models
                 }
                 indice++;
             }
-            if (indice>-1)
+            if (idx>-1)
             {
-                return personas[indice];
+                return personas[idx];
             }
             else
             {

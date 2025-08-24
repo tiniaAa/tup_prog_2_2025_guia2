@@ -44,6 +44,7 @@
             btnEliminar.TabIndex = 11;
             btnEliminar.Text = "Eliminar";
             btnEliminar.UseVisualStyleBackColor = true;
+            btnEliminar.Click += btnEliminar_Click;
             // 
             // btnModificar
             // 
@@ -53,6 +54,7 @@
             btnModificar.TabIndex = 10;
             btnModificar.Text = "Modificar";
             btnModificar.UseVisualStyleBackColor = true;
+            btnModificar.Click += btnModificar_Click;
             // 
             // btnVer
             // 
@@ -62,6 +64,7 @@
             btnVer.TabIndex = 9;
             btnVer.Text = "Ver";
             btnVer.UseVisualStyleBackColor = true;
+            btnVer.Click += btnVer_Click;
             // 
             // btnAgregar
             // 
@@ -71,6 +74,7 @@
             btnAgregar.TabIndex = 8;
             btnAgregar.Text = "Agregar";
             btnAgregar.UseVisualStyleBackColor = true;
+            btnAgregar.Click += btnAgregar_Click;
             // 
             // btnListar
             // 
